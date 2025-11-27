@@ -3,6 +3,8 @@
 **全能办公工具箱** 是一款基于 **Electron + React** 构建的现代化桌面办公辅助软件。它集成了图片处理、PDF 高级操作、科学计算等多项高频办公功能，旨在通过极简的 UI 和极致的运行速度，提升用户的办公效率。
 
 本项目完全本地化运行，无需联网上传文件，充分保障用户隐私安全。
+<img width="1182" height="790" alt="image" src="https://github.com/user-attachments/assets/2a05fa31-eb65-4e8a-a837-58cca61642eb" />
+<img width="1180" height="787" alt="image" src="https://github.com/user-attachments/assets/5e5138e4-c949-41bd-9175-9ce44c6f29cd" />
 
 ## ✨ 核心功能
 
@@ -14,12 +16,12 @@
 - **PDF 拆分**：支持 **可视化页面选择** 或 **页码范围输入** (如 `1-5, 8`)，将选定页面拆分并打包为 ZIP 下载。
 - **PDF 转图片**：内置 PDF 渲染引擎，支持预览每一页缩略图。用户可勾选特定页面，将其导出为 **高清 JPG/PNG** 图片包。
 - **图片转 PDF**：将多张图片拼接合成为一个 PDF 文档。
-- **PDF 压缩**：优化 PDF 内部结构，移除冗余对象，减小文件体积。
+- **PDF 压缩**：优化 PDF 内部结构，移除冗余对象，减小文件体积。（v1.0.0版本目前无效）
 
 ### 2. 🖼️ 图片格式转换
 
 - 支持 **JPG, PNG, WEBP, BMP, ICO** 等格式互转。
-- 支持转换质量/压缩率调节。
+- 支持转换质量/压缩率调节。（v1.0.0版本目前无效）
 - 提供转换前后的全屏预览功能。
 
 ### 3. 🧮 科学计算器
@@ -133,5 +135,6 @@ toolbox-electron/
    - Windows 打包必须使用严格的 `.ico` 格式（推荐 256x256 尺寸）。请将图标放在 `public/icon.ico` 并确保 `package.json` 配置指向它。
 
 ## 📄 许可证
+
 
 本项目采用 [MIT License](https://www.google.com/search?q=LICENSE) 开源许可证。
